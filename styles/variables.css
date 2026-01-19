@@ -3,8 +3,8 @@
   /* Переменная для шрифтов */
   --accent-font: 'PressStart2P', fantasy;
   --main-font: 'Inter', sans-serif;
-  --card-title-weight: 700;
-  --card-text-weight: 400;
+  --main-font-weight: 410;
+  --heading-font-weight: 715;
 
   /* Переменная для фона */
   --background-gradient:
@@ -12,16 +12,12 @@
     repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
     linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
 
-  /* Переменная для ширины контента */
-  --content-width: clamp(320px, 90vw, 700px);
-
   /* Переменная цвтов */
   --accent-color: #000;
   --button-text-color: #fff;
   --button-bg-color: #fff;
   --background-color: #fff;
-  --label-stroke-color: rgba(255, 255, 255, 0.5);
-  --label-stroke-dark: rgba(0, 0, 0, 0.6);
+  --label-stroke-color: #fff;
   --contour-color: #000;
   --animation-fill-color: #ff0000;
 }
